@@ -4,6 +4,7 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.persistence.Transient;
 
 import lombok.Data;
 import lombok.Getter;
@@ -22,5 +23,8 @@ public class Student {
 	
 	@Column(name="roll_no")
 	private String rollno;
+	
+	@Transient
+	private String temp;
 
 }

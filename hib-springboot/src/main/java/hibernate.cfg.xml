@@ -20,5 +20,6 @@
     <property name="format_sql">true</property>
     <property name="hbm2ddl.auto">update</property>
     <mapping class="com.hib.hib_springboot.Student"/>
+    <mapping class="com.hib.hib_springboot.Address"/>
 	</session-factory>
 	</hibernate-configuration>
